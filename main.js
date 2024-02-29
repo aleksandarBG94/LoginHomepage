@@ -19,7 +19,7 @@ $('.btn').on('click', function rememberMe() {
 $('.btn').on('click', function login(event) {
     event.preventDefault();
     if ($('#userName').val() === 'akotsev' && $('#userPassword').val() === '123') {
-        window.location.href = 'file:///C:/Users/akotsev/Documents/Web/29.02/homepage.html';
+        window.location.href = '/homepage.html';;
     } else {
         $('#loginError').show();
     }
