@@ -1,0 +1,11 @@
+body, html {
+    height: 100%;
+    background: linear-gradient(300deg, #00bfff, #64a0d8, #ff8a7a);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.card {
+    width: 200%;
+    max-width: 400px;
+}
